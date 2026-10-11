@@ -38,6 +38,8 @@ python flowscan.py --demo
 
 | 06 | [VulnQA](agents/06-vulnqa/) | 离线漏洞情报问答：BM25 检索 20 条高危 CVE 知识库，按编号/自然语言提问，输出漏洞情报卡片，纯标准库 | RAG |
 
+| 07 | [WebAttack](agents/07-webattack/) | Web 攻击检测：6 组启发式规则识别访问日志中的 SQLi/XSS/遍历/命令注入/敏感文件扫描，按 IP 打分告警，纯标准库 | 流量监测 |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
