@@ -40,6 +40,8 @@ python flowscan.py --demo
 
 | 07 | [WebAttack](agents/07-webattack/) | Web 攻击检测：6 组启发式规则识别访问日志中的 SQLi/XSS/遍历/命令注入/敏感文件扫描，按 IP 打分告警，纯标准库 | 流量监测 |
 
+| 08 | [MITRE-QA](agents/08-mitre/) | MITRE ATT&CK 战术技战术离线问答：BM25 检索 18 条真实 ATT&CK 技术，按编号/自然语言提问，输出战术卡片，纯标准库 | RAG |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
