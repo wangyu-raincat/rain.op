@@ -42,6 +42,8 @@ python flowscan.py --demo
 
 | 08 | [MITRE-QA](agents/08-mitre/) | MITRE ATT&CK 战术技战术离线问答：BM25 检索 18 条真实 ATT&CK 技术，按编号/自然语言提问，输出战术卡片，纯标准库 | RAG |
 
+| 09 | [PatroniWatch](agents/09-patroniwatch/) | 针对 CVE-2026-76268 的日志检测：识别打向 Patroni REST API 的未认证配置变更、API 路径探测与命令注入载荷，按 IP 打分告警，纯标准库 | 流量监测 |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
