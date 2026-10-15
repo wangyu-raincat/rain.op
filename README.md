@@ -45,6 +45,8 @@ python flowscan.py --demo
 | 09 | [PatroniWatch](agents/09-patroniwatch/) | 针对 CVE-2026-76268 的日志检测：识别打向 Patroni REST API 的未认证配置变更、API 路径探测与命令注入载荷，按 IP 打分告警，纯标准库 | 流量监测 |
 | 10 | [VulnIntel-QA](agents/10-vulnintel/) | 2026年10月高危漏洞情报离线问答：BM25 检索 4 条真实 CVE，查影响范围/利用条件/修复版本/在野利用，纯标准库 | RAG |
 
+| 11 | [GitLintWatch](agents/11-gitlintwatch/) | 针对 CVE-2026-97229 的日志检测：识别打向 GitLab CI lint 端点的未授权探测、正则形态/编码异常，按 IP 打分告警，纯标准库 | 流量监测 |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
