@@ -47,6 +47,8 @@ python flowscan.py --demo
 
 | 11 | [GitLintWatch](agents/11-gitlintwatch/) | 针对 CVE-2026-97229 的日志检测：识别打向 GitLab CI lint 端点的未授权探测、正则形态/编码异常，按 IP 打分告警，纯标准库 | 流量监测 |
 
+| 12 | [LiveFire-QA](agents/12-livefire/) | 「正在着火的漏洞」离线问答：BM25 检索 5 条在野利用/暂无补丁的高危漏洞，按威胁状态分流查「最该先修哪个」「没补丁怎么缓」，纯标准库 | RAG |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
