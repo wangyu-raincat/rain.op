@@ -51,6 +51,8 @@ python flowscan.py --demo
 
 | 13 | [SEGWatch](agents/13-segwatch/) | 针对 CVE-2026-76519 的网关沦陷检测：沦陷指示器/附件路径穿越/异常外联/暴露面自查四组规则，按网关打 0–100 风险分，纯标准库 | 流量监测 |
 
+| 14 | [SupplyChain-QA](agents/14-supplychain/) | 供应链投毒事件速查：Rank Math SEO PRO 投毒事件（CVE-2026-111862）研判/自查/处置/防护，BM25 检索 + 投毒窗口研判，纯标准库 | RAG |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
