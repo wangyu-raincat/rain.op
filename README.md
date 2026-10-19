@@ -53,6 +53,8 @@ python flowscan.py --demo
 
 | 14 | [SupplyChain-QA](agents/14-supplychain/) | 供应链投毒事件速查：Rank Math SEO PRO 投毒事件（CVE-2026-111862）研判/自查/处置/防护，BM25 检索 + 投毒窗口研判，纯标准库 | RAG |
 
+| 15 | [CollaboraWatch](agents/15-collaborawatch/) | 针对 CVE-2026-110447 的利用链检测：proxy.php 命令注入指纹/shx* webshell 落地/webhook.site 外联/版本自查五组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
