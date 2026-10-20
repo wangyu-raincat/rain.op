@@ -1,0 +1,4 @@
+# 依赖说明
+
+本 agent 只用 Python 标准库（`argparse`、`re`、`math`），无第三方依赖。
+Python 3.8+ 均可运行，离线可用。
