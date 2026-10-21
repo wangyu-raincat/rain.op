@@ -54,7 +54,10 @@ python flowscan.py --demo
 | 14 | [SupplyChain-QA](agents/14-supplychain/) | 供应链投毒事件速查：Rank Math SEO PRO 投毒事件（CVE-2026-111862）研判/自查/处置/防护，BM25 检索 + 投毒窗口研判，纯标准库 | RAG |
 
 | 15 | [CollaboraWatch](agents/15-collaborawatch/) | 针对 CVE-2026-110447 的利用链检测：proxy.php 命令注入指纹/shx* webshell 落地/webhook.site 外联/版本自查五组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
+
 | 16 | [NextJS-QA](agents/16-nextjsqa/) | Next.js 10-14 双 RCE 沦陷速查：输版本号判是否中招、给升级路径（sharp 同步检查），BM25 检索 3 漏洞卡片 + 自查/处置清单，纯标准库 | RAG |
+
+| 17 | [DrupalWatch](agents/17-drupalwatch/) | 针对 CVE-2026-108097 的 Field UI RCE 检测：callable 命名载荷/文件读取探测/webshell 落地七组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 
 ## 📐 约定
 
