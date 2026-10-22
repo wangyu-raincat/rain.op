@@ -59,6 +59,8 @@ python flowscan.py --demo
 
 | 17 | [DrupalWatch](agents/17-drupalwatch/) | 针对 CVE-2026-108097 的 Field UI RCE 检测：callable 命名载荷/文件读取探测/webshell 落地七组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 
+| 18 | [PHPatchWatch](agents/18-phppatchwatch/) | 针对 CVE-2026-109618/109619（PHP2Shell 双 RCE）的暴露面盘点：版本标识判定补丁就绪度，0–100 风险分 + 升级建议，纯标准库 | 流量监测 |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
