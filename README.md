@@ -61,6 +61,8 @@ python flowscan.py --demo
 
 | 18 | [PHPatchWatch](agents/18-phppatchwatch/) | 针对 CVE-2026-109618/109619（PHP2Shell 双 RCE）的暴露面盘点：版本标识判定补丁就绪度，0–100 风险分 + 升级建议，纯标准库 | 流量监测 |
 
+| 19 | [RansomQA](agents/19-ransomqa/) | 勒索软件应急响应离线问答：以 AA26-293A（SafePay）联合通告为核心情报，18 张情报+Playbook 卡片，BM25 检索 + 抽取式回答，纯标准库 | RAG |
+
 ## 📐 约定
 
 - 每个 agent 在 `agents/NN-英文名/` 下自成一体，含中文 README、主程序、演示模式。
