@@ -82,6 +82,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 17 | [DrupalWatch](agents/17-drupalwatch/) | 针对 CVE-2026-108097 的 Field UI RCE 检测：callable 命名载荷/文件读取探测/webshell 落地七组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 | 18 | [PHPatchWatch](agents/18-phppatchwatch/) | 针对 CVE-2026-109618/109619（PHP2Shell 双 RCE）的暴露面盘点：版本标识判定补丁就绪度，0–100 风险分 + 升级建议，纯标准库 | 流量监测 |
 | 19 | [RansomQA](agents/19-ransomqa/) | 勒索软件应急响应离线问答：以 AA26-293A（SafePay）联合通告为核心情报，18 张情报+Playbook 卡片，BM25 检索 + 抽取式回答，纯标准库 | RAG |
+| 20 | [GitLabWatch](agents/20-gitlabwatch/) | 针对 CVE-2026-110264（GitLab CVSS 10.0 Onigmo 未认证 RCE）的利用探测：.org 渲染请求/渲染错误爆发/病态载荷/高频重试，按 IP 打 0–100 风险分 + 升级建议，纯标准库 | 流量监测 |
 
 ## 📐 项目约定与参与
 
