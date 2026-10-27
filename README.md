@@ -85,6 +85,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 20 | [GitLabWatch](agents/20-gitlabwatch/) | 针对 CVE-2026-110264（GitLab CVSS 10.0 Onigmo 未认证 RCE）的利用探测：.org 渲染请求/渲染错误爆发/病态载荷/高频重试，按 IP 打 0–100 风险分 + 升级建议，纯标准库 | 流量监测 |
 | 21 | [NodeShell-QA](agents/21-nodeshell-qa/) | Node2Shell（CVE-2026-111497）离线问答：输版本号判是否中招、给修复版本，BM25 检索 9 张情报卡片，纯标准库 | RAG |
 | 22 | [ActuatorWatch](agents/22-actuatorwatch/) | Spring Boot Actuator 暴露面探测检测：敏感端点枚举/env 窃取/危险写操作/SpEL 注入链，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
+| 23 | [VeloQA](agents/23-veloqa/) | Arista VeloCloud Orchestrator 问答与版本研判：针对 CVE-2026-114625（SQL 注入），按分支判版本是否中招、答利用条件与易错点，纯标准库 | RAG |
 
 ## 📐 项目约定与参与
 
