@@ -88,6 +88,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 23 | [VeloQA](agents/23-veloqa/) | Arista VeloCloud Orchestrator 问答与版本研判：针对 CVE-2026-114625（SQL 注入），按分支判版本是否中招、答利用条件与易错点，纯标准库 | RAG |
 | 24 | [SSRFWatch](agents/24-ssrfwatch/) | SSRF 探测检测：云元数据/内网地址/危险协议/绕过形态多组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 | 25 | [JwtQA](agents/25-jwtqa/) | JWT 安全离线问答与令牌自查：10 张攻击手法与防御卡片 + alg=none/kid 注入/jku 劫持等结构检查，纯标准库 | RAG |
+| 26 | [FireboxWatch](agents/26-fireboxwatch/) | WatchGuard Firebox 严重漏洞探测嫌疑检测：AD/SIP/FireCluster/Portal/日志/WireGuard 六组信号，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 
 ## 📐 项目约定与参与
 
