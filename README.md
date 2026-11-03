@@ -91,6 +91,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 26 | [FireboxWatch](agents/26-fireboxwatch/) | WatchGuard Firebox 严重漏洞探测嫌疑检测：AD/SIP/FireCluster/Portal/日志/WireGuard 六组信号，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 | 27 | [AgentSecQA](agents/27-agentsecqa/) | AI 智能体安全离线问答：提示注入/工具越权/MCP 投毒/记忆污染等 12 张知识卡片，BM25 式检索 + 抽取式回答，纯标准库 | RAG |
 | 28 | [LoginBurst](agents/28-loginburst/) | Web 登录爆破/撞库检测：失败爆发/多用户名撞库/爆破后成功/密码喷洒/自动化五组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
+| 29 | [K8sSecQA](agents/29-k8sqa/) | Kubernetes 安全离线问答：RBAC 越权/特权容器/hostPath/Secret/准入控制等 12 张知识卡片，词项检索 + 抽取式回答，纯标准库 | RAG |
 
 ## 📐 项目约定与参与
 
