@@ -93,6 +93,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 28 | [LoginBurst](agents/28-loginburst/) | Web 登录爆破/撞库检测：失败爆发/多用户名撞库/爆破后成功/密码喷洒/自动化五组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 | 29 | [K8sSecQA](agents/29-k8sqa/) | Kubernetes 安全离线问答：RBAC 越权/特权容器/hostPath/Secret/准入控制等 12 张知识卡片，词项检索 + 抽取式回答，纯标准库 | RAG |
 | 30 | [APIAbuseWatch](agents/30-apiabuse/) | API 滥用检测：高频调用/端点枚举/错误爆发/批量拉取/密钥轮换五组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
+| 31 | [CloudSecQA](agents/31-cloudsecqa/) | 云安全配置离线问答：IAM 越权/公开存储桶/密钥泄露/元数据 SSRF 等 12 张知识卡片，词项检索 + 抽取式回答，纯标准库 | RAG |
 
 ## 📐 项目约定与参与
 
