@@ -95,6 +95,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 30 | [APIAbuseWatch](agents/30-apiabuse/) | API 滥用检测：高频调用/端点枚举/错误爆发/批量拉取/密钥轮换五组规则，按 IP 打 0–100 风险分，纯标准库 | 流量监测 |
 | 31 | [CloudSecQA](agents/31-cloudsecqa/) | 云安全配置离线问答：IAM 越权/公开存储桶/密钥泄露/元数据 SSRF 等 12 张知识卡片，词项检索 + 抽取式回答，纯标准库 | RAG |
 | 32 | [PromptInjectionWatch](agents/32-promptinjectionwatch/) | 提示注入检测：读 LLM 应用日志，规则 + 打分检出直接/间接注入与工具调用劫持，分级输出报告，纯标准库 | 监测 |
+| 33 | [SecureRAGVault](agents/33-secureragvault/) | 带权限过滤与引用溯源的安全知识库问答：文档分级、按角色过滤检索结果、答案强制带来源，演示防越权召回，纯标准库 | RAG |
 
 ## 📐 项目约定与参与
 
