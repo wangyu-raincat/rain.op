@@ -96,6 +96,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 31 | [CloudSecQA](agents/31-cloudsecqa/) | 云安全配置离线问答：IAM 越权/公开存储桶/密钥泄露/元数据 SSRF 等 12 张知识卡片，词项检索 + 抽取式回答，纯标准库 | RAG |
 | 32 | [PromptInjectionWatch](agents/32-promptinjectionwatch/) | 提示注入检测：读 LLM 应用日志，规则 + 打分检出直接/间接注入与工具调用劫持，分级输出报告，纯标准库 | 监测 |
 | 33 | [SecureRAGVault](agents/33-secureragvault/) | 带权限过滤与引用溯源的安全知识库问答：文档分级、按角色过滤检索结果、答案强制带来源，演示防越权召回，纯标准库 | RAG |
+| 34 | [MCPGuard](agents/34-mcpguard/) | MCP 工具调用网关审计：角色白名单 + 危险调用拦截 + 人工审批点，审计 agent 的工具调用记录，纯标准库 | 监测 |
 
 ## 📐 项目约定与参与
 
