@@ -98,6 +98,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 33 | [SecureRAGVault](agents/33-secureragvault/) | 带权限过滤与引用溯源的安全知识库问答：文档分级、按角色过滤检索结果、答案强制带来源，演示防越权召回，纯标准库 | RAG |
 | 34 | [MCPGuard](agents/34-mcpguard/) | MCP 工具调用网关审计：角色白名单 + 危险调用拦截 + 人工审批点，审计 agent 的工具调用记录，纯标准库 | 监测 |
 | 35 | [AgentEvalBench](agents/35-agentevalbench/) | agent 安全评测台：20 条注入/越权/危险调用/外泄/记忆污染测试集，自动跑批打分，输出通过率报告，可作回归基线，纯标准库 | 评测 |
+| 36 | [AgentIncidentDesk](agents/36-agentincidentdesk/) | agent 异常事件台账：汇总注入/越权/异常调用事件，分级去重、算 SLA，输出日报与上报清单，纯标准库 | 监测 |
 
 ## 📐 项目约定与参与
 
