@@ -101,6 +101,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 36 | [AgentIncidentDesk](agents/36-agentincidentdesk/) | agent 异常事件台账：汇总注入/越权/异常调用事件，分级去重、算 SLA，输出日报与上报清单，纯标准库 | 监测 |
 | 37 | [AgentGovQA](agents/37-agentgovqa/) | 智能体治理与合规离线问答：最小权限/人工审批/MCP 工具治理/审计留痕等 12 张知识卡片，词项检索 + 抽取式回答，附上线前治理检查清单，纯标准库 | RAG |
 | 38 | [AgentMemoryGuard](agents/38-agentmemoryguard/) | agent 长期记忆污染审计：检出指令注入/凭据泄露/事实冲突/信任错配/权限提升五类信号，打分分级并输出隔离清单，纯标准库 | 监测 |
+| 39 | [SkillPoisonQA](agents/39-skillpoisonqa/) | 智能体技能与工具供应链投毒离线问答：MCP 投毒/技能投毒/描述劫持等 12 张知识卡片，词项检索 + 抽取式回答，附投毒自查清单，纯标准库 | RAG |
 
 ## 📐 项目约定与参与
 
