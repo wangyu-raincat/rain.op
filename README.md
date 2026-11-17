@@ -104,6 +104,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 39 | [SkillPoisonQA](agents/39-skillpoisonqa/) | 智能体技能与工具供应链投毒离线问答：MCP 投毒/技能投毒/描述劫持等 12 张知识卡片，词项检索 + 抽取式回答，附投毒自查清单，纯标准库 | RAG |
 | 40 | [ToolChainWatch](agents/40-toolchainwatch/) | agent 工具调用链异常检测：读 JSONL 调用轨迹，检出危险调用链/密钥外发/循环调用/参数漂移/错误忽略，打 0–100 风险分，纯标准库 | 监测 |
 | 41 | [AgentJailbreakQA](agents/41-agentjailbreakqa/) | 智能体越狱与提示注入防御离线问答：角色扮演/编码绕过/多轮诱导/间接注入 12 张知识卡片，词项检索 + 抽取式回答，附越狱防御自查清单，纯标准库 | RAG |
+| 42 | [AgentLeakWatch](agents/42-agentleakwatch/) | agent 敏感信息外泄审计：凭据/PII/系统提示/内网资产/敏感文件内容五组规则，区分内外部渠道打 0–100 风险分，纯标准库 | 监测 |
 
 ## 📐 项目约定与参与
 
