@@ -106,6 +106,7 @@ SecQA 会输出抽取式回答、知识条目编号和 BM25 得分。它通过�
 | 41 | [AgentJailbreakQA](agents/41-agentjailbreakqa/) | 智能体越狱与提示注入防御离线问答：角色扮演/编码绕过/多轮诱导/间接注入 12 张知识卡片，词项检索 + 抽取式回答，附越狱防御自查清单，纯标准库 | RAG |
 | 42 | [AgentLeakWatch](agents/42-agentleakwatch/) | agent 敏感信息外泄审计：凭据/PII/系统提示/内网资产/敏感文件内容五组规则，区分内外部渠道打 0–100 风险分，纯标准库 | 监测 |
 | 43 | [AgentPrivacyQA](agents/43-agentprivacyqa/) | 智能体隐私与数据治理离线问答：数据最小化/PII 脱敏/记忆留存/共享出境/删除权 12 张知识卡片，词项检索 + 抽取式回答，附隐私合规自查清单，纯标准库 | RAG |
+| 44 | [AgentApprovalDesk](agents/44-agentapprovaldesk/) | 智能体人工审批审计台：七组规则审计审批台账，检出无审批执行/自批自审/批后改参/越权审批，输出合规率与 SLA 达成率，纯标准库 | 监测 |
 
 ## 📐 项目约定与参与
 
