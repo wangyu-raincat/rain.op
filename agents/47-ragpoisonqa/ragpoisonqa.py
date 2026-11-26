@@ -8,10 +8,10 @@
 知识卡片全部离线，词项检索 + 抽取式回答，每条答案强制带来源编号
 与防御自查动作。
 
-与 Day 45 RAGPoisonQA（提示注入攻防）不同：注入问答里知识库投毒
+与 Day 45 PromptInjectQA（提示注入攻防）不同：注入问答里知识库投毒
 只是间接注入的一种；这里专讲 RAG 投毒全链路 -- 文档怎么被塞进来、
 怎么被检索命中、怎么污染答案、每一层怎么防。要了解直接/间接/工具
-输出三类注入的通用打法请用 RAGPoisonQA。
+输出三类注入的通用打法请用 PromptInjectQA。
 与 Day 33 SecureRAGVault（权限过滤问答）不同：这里讲投毒防御 --
 内容本身是否可信；权限过滤讲谁能看到哪级文档。要按角色过滤检索
 结果请用 SecureRAGVault。
@@ -164,9 +164,9 @@ def main(argv=None):
     parser.add_argument("--ask", metavar="问题", help="直接提问")
     parser.add_argument("--category", metavar="类别", help="只在指定类别里检索")
     parser.add_argument("--top", type=int, default=3, help="返回的卡片数量（默认 3）")
-    parser.add_argument("--demo", action="store_true", help="内置演示：4 个典型注入问题")
+    parser.add_argument("--demo", action="store_true", help="内置演示：4 个典型投毒问题")
     parser.add_argument("--list", action="store_true", help="列出全部知识卡片")
-    parser.add_argument("--checklist", action="store_true", help="注入防御自查清单")
+    parser.add_argument("--checklist", action="store_true", help="投毒防御自查清单")
     parser.add_argument("--json", metavar="路径", help="与 --checklist 联用，把清单写成 JSON")
     args = parser.parse_args(argv)
 
